@@ -1,20 +1,118 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.5">
-  <style type="text/css">
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 16.0px 'Apple SD Gothic Neo'; color: #000000; color: rgba(0, 0, 0, 0.85); -webkit-text-stroke: rgba(0, 0, 0, 0.85); background-color: #b3b3b3}
-    span.s1 {font-kerning: none}
-    span.s2 {font: 16.0px 'Helvetica Neue'; font-kerning: none}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>너굴맵 서비스 아이디어 수요조사</title>
+  <style>
+    /* 모바일 퍼스트 */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #f7f7f7;
+      color: #333;
+      line-height: 1.4;
+      padding: 1rem;
+    }
+    header {
+      text-align: center;
+      padding: 1rem 0;
+      background: #6c5ce7;
+      color: #fff;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    header h1 { font-size: 1.25rem; }
+
+    .note {
+      font-size: 0.85rem;
+      color: #666;
+      text-align: center;
+      margin-bottom: 0.75rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 0.5rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+
+    .iframe-wrapper {
+      position: relative;
+      width: 100%;
+      padding-top: 150%; /* 세로로 길게 보이도록 비율 조정 */
+      margin-bottom: 1rem;
+    }
+    .iframe-wrapper iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .share-area {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .share-area button {
+      width: 100%;
+      max-width: 320px;
+      padding: 0.75rem;
+      font-size: 1rem;
+      background: #6c5ce7;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .share-area button:active {
+      opacity: 0.8;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.75rem;
+      color: #999;
+    }
   </style>
 </head>
 <body>
-<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; text-align: center; font: 24.0px 'Apple SD Gothic Neo'; -webkit-text-stroke: #000000"><span class="s1"><b>너굴맵 서비스 아이디어 수요조사</b></span></h1>
-<p class="p2"><span class="s1">친구에게도</span><span class="s2"> </span><span class="s1">공유하기</span></p>
+
+  <header>
+    <h1>너굴맵 서비스 아이디어 수요조사</h1>
+  </header>
+
+  <p class="note">
+    ※ 설문이 보이지 않으면, 브라우저 쿠키를 허용한 뒤 새로고침 해주세요.
+  </p>
+
+  <div class="card">
+    <div class="iframe-wrapper">
+      <!-- 여기에 구글폼 임베드 코드를 붙여넣으세요 -->
+      <iframe 
+        src="https://docs.google.com/forms/d/e/1FAIpQLSd2JP2VYGAB4km8hS5Dkgy4Az9-I11_ZzqJGfLuCOqPLZAUDw/viewform?embedded=true" 
+        loading="lazy">
+        로딩 중...
+      </iframe>
+    </div>
+  </div>
+
+  <div class="share-area">
+    <!-- 친구에게도 공유하기 버튼: 임베드가 불편할 때 대체 -->
+    <button onclick="window.open(
+      'https://forms.gle/1FAIpQLSd2JP2VYGAB4km8hS5Dkgy4Az9-I11_ZzqJGfLuCOqPLZAUDw', '_blank'
+    )">
+      설문하러 가기
+    </button>
+  </div>
+
+  <footer>
+    © 2025 너굴맵 팀
+  </footer>
+
 </body>
 </html>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd2JP2VYGAB4km8hS5Dkgy4Az9-I11_ZzqJGfLuCOqPLZAUDw/viewform?embedded=true" width="640" height="1462" frameborder="0" marginheight="0" marginwidth="0">로드 중…</iframe>
